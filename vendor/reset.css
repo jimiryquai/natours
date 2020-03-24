@@ -4,6 +4,10 @@
 *::after {
   box-sizing: border-box;
 }
+/* Change root font-size to 10px for easy conversion of px to rem */
+html {
+  font-size: 62.5%;
+}
 
 /* Remove default padding */
 ul[class],

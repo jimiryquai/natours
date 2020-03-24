@@ -1,12 +1,14 @@
-@import url(./__place/button__place_header.css);
+@import url(./_place/button_place_header.css);
 
 .button {
     text-transform: uppercase;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     border: none;
-    border-radius: 100px;
+    border-radius: 10rem;
     background-color: #fff;
     cursor: pointer;
+    font-size: 1.6rem;
+    position: relative;
 }
 
 .button:visited {
@@ -15,10 +17,28 @@
 
 .button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
 }
 
 .button:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }

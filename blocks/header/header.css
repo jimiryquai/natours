@@ -1,7 +1,6 @@
-@import url(./__title-container/header__title-container.css);
-@import url(./__title/header__title.css);
-@import url(./__title-main/header__title-main.css);
-@import url(./__title-sub/header__title-sub.css);
+@import url(./__logo-container/header__logo-container.css);
+@import url(./__logo/header__logo.css);
+@import url(./__heading-container/header__heading-container.css);
 
 .header {
     height: 95vh;

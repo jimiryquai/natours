@@ -1,6 +1,6 @@
-.header__title {
+.heading__primary {
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
