@@ -1,8 +1,0 @@
-.button_place_header {
-    background-color: #fff;
-    color: #777;
-}
-
-.button_place_header::after {
-    background-color: #fff;
-}
