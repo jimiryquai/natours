@@ -1,0 +1,24 @@
+@import url(./__place/button__place_header.css);
+
+.button {
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button:visited {
+    transition: all .2s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
