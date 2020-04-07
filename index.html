@@ -45,7 +45,7 @@
                         <span class="heading__primary_main moveInLeft">Outdoors</span> 
                         <span class="heading__primary_sub moveInRight">is where life happens</span>
                     </h1>
-                    <button class="button button_place_header moveInBottom">Discover our tours</button>
+                    <a class="button button_place_header moveInBottom" href="#section-tours">Discover our tours</a>
                 </div>
             </header>
             <main class="main">
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-tours">
+                <section class="section-tours" id="section-tours">
                     <div class="u-center-text u-margin-bottom-big">
                         <h2 class="heading-secondary">
                             Most popular tours
@@ -143,7 +143,7 @@
                                             <p class="card__price-only">Only</p>
                                             <p class="card__price-value">£297</p>
                                         </div>
-                                        <button class="button">Book now!</button>
+                                        <a class="button" href="#popup">Book now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                             <p class="card__price-only">Only</p>
                                             <p class="card__price-value">£497</p>
                                         </div>
-                                        <button class="button">Book now!</button>
+                                        <a class="button" href="#popup">Book now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                             <p class="card__price-only">Only</p>
                                             <p class="card__price-value">£897</p>
                                         </div>
-                                        <button class="button">Book now!</button>
+                                        <a class="button" href="#popup">Book now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -325,6 +325,25 @@
                         </div>
                     </div>
             </footer>
+            <div class="popup" id="popup">
+                <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="./img/nat-8.jpg" alt="woman on a canoe" class="popup__image">
+                        <img src="./img/nat-9.jpg" alt="man onn a mountain" class="popup__image">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#section-tours" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-medium">
+                            Start booking now
+                        </h2>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; please read the terms and conditions first</h3>
+                        <p class="popup__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quod dolore architecto magnam maxime tenetur dignissimos deleniti! Consequatur quibusdam ad libero iusto, modi neque. Molestiae error ut quos nesciunt eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur soluta, incidunt consequatur laborum illo deleniti aliquam quas veniam nostrum praesentium nam libero assumenda inventore ea exercitationem quos, voluptatum in! Veniam.
+                        </p>
+                        <button class="button button_green u-margin-top-small">Book Now</button>
+                    </div>
+                </div>
+            </div>
             <!-- <section class="grid-test">
                 <div class="row">
                     <div class="col-1-of-2">
